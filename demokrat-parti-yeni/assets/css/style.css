@@ -1,0 +1,1366 @@
+@import "../fonts/MyriadPro/font.css";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: normal;
+}
+
+* {
+  font-family: "Myriad Pro", sans-serif;
+  
+}
+
+body{
+overflow-x:hidden
+}
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+section{
+  margin: 0px;
+  padding: 0px;
+}
+.nav-link {
+  font-size: 22pt;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff !important;
+  margin-right: 2rem;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.owl-dot {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #cf0b0b !important;
+  margin-right: 0.5rem;
+  outline: 0 !important;
+}
+
+.owl-dot.active {
+  background: #cf0b0b !important;
+}
+.container{
+  max-width: 1140px!important;
+}
+.dropdown-menu{
+  min-width: auto;
+  padding:.1rem 0;
+}
+.dropdown-item{
+  font-size: 16pt;
+  color: #2e2e2e;
+  padding-bottom: 7px;
+}
+header {
+  background-image: url("../img/new-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+/* logo */
+header nav .nav-container .navbar-brand {
+  position: relative;
+  height: 170px;
+  z-index: 22222;
+}
+header nav .nav-container .navbar-brand img{
+ height: 100%;
+}
+
+header #mainNav {
+  position: relative;
+}
+header #mainNav .before {
+  position: absolute;
+  background: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 30px;
+  top: -2.5rem;
+  right: 5rem;
+}
+header #mainNav .before img{
+  width: 100%;
+  height: 26px;
+}
+header #mainNav .after {
+  position: absolute;
+  background:no-repeat;
+  background-size: 350px;
+  width: 100%;
+  height: 26px;
+  top: -2.5rem;
+  left: -114rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 0!important;
+  padding-left: 0!important;
+}
+header #mainNav ul li a{
+  font-size: 14pt;
+  font-weight: 700;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+
+
+/* mobile menu */
+header nav .mobile{
+  display: none;
+}
+
+
+
+header .header-inline {
+  position: relative;
+  padding: 20px 0 40px;
+}
+
+header .header-inline:before {
+  position: absolute;
+  content: "";
+  background: url("../img/nav-after.png") no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 30px;
+  top: -2rem;
+  right: -35.9rem;
+  overflow: hidden;
+}
+header .header-inline .item {
+  width: 100%;
+  height: 510px;
+  background: #eeee;
+  box-sizing: border-box;
+  padding: 18px;
+}
+header .header-inline .container .owl-carousel{
+  padding-right: 15px;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  bottom:-5.2px;
+  font-size: 45px;
+  color: red;
+  font-weight: bolder;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav button{
+  z-index: 2;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav button.owl-prev{
+  margin-left: 120px;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav .owl-next{
+  margin-right:130px ;
+
+}
+
+
+header .header-inline .item img {
+  height: 292px;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+header .header-inline .item img:hover{
+  height: 292px;
+  transform: scale(0.9,0.9);
+  overflow: hidden;
+}
+header .header-inline .item .date {
+  float: left;
+  margin-top: 17px;
+  margin-bottom: 20px;
+  font-size: 14pt;
+  border-bottom: 1px solid #818181;
+  padding-bottom: 0px;
+  color: #616161;
+}
+header .header-inline .item .category {
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-size: 10pt;
+  background: #cf0b0b;
+  padding: 7px;
+  color: #ffffff;
+  margin-right: -18px;
+}
+header .header-inline .item .title {
+  clear: both;
+  color: #212529;
+  font-size: 20px;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .item .more-info {
+  float: right;
+  font-size: 11pt;
+  margin-right: 30px;
+}
+header .header-inline .item .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .item .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  top: 7px;
+  margin-left: 4px;
+}
+header .header-inline .border-card {
+  margin-top: 12px;
+  width: 100%;
+  height: 145px;
+  background: #eeee;
+  padding: 9px;
+  box-sizing: border-box;
+  -webkit-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+
+header .header-inline .border-card .left {
+  float: left;
+  width: 250px;
+}
+header .header-inline .border-card .left img{
+  width: 100%;
+  height: 100%;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+header .header-inline .border-card .left img:hover{
+  
+  transform: scale(0.9,0.9);
+}
+header .header-inline .border-card .right {
+  float: left;
+  margin-left: 15px;
+}
+
+header .header-inline .border-card .right .date{
+  font-size: 13pt;
+  color: #616161;
+  padding-top: 11px;
+  border-bottom: 1px solid #818181;
+  display: inline-block;
+}
+header .header-inline .border-card .right .category{
+  float: right;
+  margin-top: 0%;
+  font-size: 10pt;
+  background: #cf0b0b;
+  padding: 7px;
+  color: #ffffff;
+  margin-right: -10px
+}
+header .header-inline .border-card .right .title{
+  padding-top: 10px;
+  color: #212529;
+  font-size: 12pt;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .border-card .right .more-info {
+  float: right;
+  margin-right: 30px;
+  margin-top: 21px;
+}
+header .header-inline .border-card .right .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: 10pt;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .border-card .right .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  bottom: 3px;
+  margin-left: 3px;
+}
+
+/* border car-2  */
+header .header-inline .border-card-2{
+  margin-top: 30px;
+  width: 100%;
+  height: 145px;
+  background: #eeee;
+  padding: 9px;
+  box-sizing: border-box;
+  -webkit-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+
+header .header-inline .border-card-2 .left {
+  float: left;
+  width: 250px;
+}
+header .header-inline .border-card-2 .left img{
+  width: 100%;
+  height: 100%;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+header .header-inline .border-card-2 .left img:hover{
+  transform: scale(0.9,0.9);
+}
+header .header-inline .border-card-2 .right {
+  float: left;
+  margin-left: 15px;
+}
+
+header .header-inline .border-card-2 .right .date{
+  font-size: 13pt;
+  color: #616161;
+  padding-top: 11px;
+  border-bottom: 1px solid #818181;
+  display: inline-block;
+}
+header .header-inline .border-card-2 .right .category{
+  float: right;
+  margin-top: 0%;
+  font-size: 10pt;
+  background: #cf0b0b;
+  padding: 7px;
+  padding-right: 62px;
+  color: #ffffff;
+  margin-right: -10px
+}
+header .header-inline .border-card-2 .right .title{
+  padding-top: 10px;
+  color: #212529;
+  font-size: 12pt;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .border-card-2 .right .more-info {
+  float: right;
+  margin-right: 30px;
+  margin-top: 21px;
+}
+header .header-inline .border-card-2 .right .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: 10pt;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .border-card-2 .right .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  bottom:3px;
+  margin-left: 3px;
+  
+}
+/*border card-2 end*/
+/* border car-3  */
+header .header-inline .border-card-3{
+  margin-top: 31px;
+  width: 100%;
+  height: 145px;
+  background: #eeee;
+  padding: 9px;
+  box-sizing: border-box;
+  -webkit-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  box-shadow: -12px -12px 0px 0px rgba(255, 255, 255, 0.5);
+  display: flex;
+}
+
+header .header-inline .border-card-3 .left {
+  float: left;
+  width: 250px;
+}
+header .header-inline .border-card-3 .left img{
+  width: 100%;
+  height: 100%;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+header .header-inline .border-card-3 .left img:hover{
+  transform: scale(0.9,0.9);
+
+}
+header .header-inline .border-card-3 .right {
+  float: left;
+  margin-left: 15px;
+}
+
+header .header-inline .border-card-3 .right .date{
+  font-size: 13pt;
+  color: #616161;
+  padding-top: 11px;
+  border-bottom: 1px solid #818181;
+  display: inline-block;
+}
+header .header-inline .border-card-3 .right .category{
+  float: right;
+  margin-top: 0%;
+  font-size: 10pt;
+  background: #cf0b0b;
+  padding: 7px;
+  padding-right: 62px;
+  color: #ffffff;
+  margin-right: -10px
+}
+header .header-inline .border-card-3 .right .title{
+  padding-top: 10px;
+  color: #212529;
+  font-size: 12pt;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .border-card-3 .right .more-info {
+  float: right;
+  margin-right: 30px;
+  margin-top: 21px;
+}
+header .header-inline .border-card-3 .right .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: 10pt;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .border-card-3 .right .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  bottom:3px;
+  margin-left: 3px;
+  
+}
+
+
+
+section.first-section{
+  height: auto;
+  background: #e2eaf3;
+  margin-top: 4px;
+  border-top:1px solid #adb2b9;
+  border-bottom:1px solid #adb2b9;
+}
+
+.sidenav {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image:linear-gradient(to right,rgb(216, 110, 58) 0%, rgb(146, 0, 79) 100%);
+}
+.sidenav img.images {
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+  height: auto;
+}
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  display: flex!important;
+  flex-direction:row !important;
+  justify-content: space-between !important;
+  padding: 4px 8px 4px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background: green;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  
+}
+.dropdown-btn .social{
+  display: flex;
+  align-items: center;
+  padding-top: 2px;
+}
+.dropdown-btn .social p{
+  font-size: 14px;
+  padding-left:30px;
+  font-family: Segoe Print;
+  letter-spacing: 1px;
+
+}
+.dropdown-btn .social i{
+  font-size: 15px;
+}
+.dropdown-btn .social img{
+  padding-left: 20px;
+}
+.dropdown-btn .sidenav-bottom{
+  display: flex;
+  align-items: center;
+}
+.dropdown-btn .sidenav-bottom p{
+  font-size: 14px;
+  font-family: Segoe Print;
+  letter-spacing: 1px;
+  padding-right: 15px;
+}
+
+.dropdown-btn .sidenav-bottom .top{
+  display: none;
+}
+
+.topactive{
+  display:active;
+}
+.bottomnone{
+  display: none;
+}
+
+/* Add an active class to the active dropdown button */
+.sidenavactive {
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  overflow: hidden;
+  max-height: 0;
+  transition:max-height 0.5s ease-out;
+  background-image: url("../img/dropdown-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5px;
+}
+.dropdown-container .yeni{
+  padding-bottom: 22px;
+}
+.dropdown-container .yeni p{
+  color: rgb(202, 187, 187);
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+section.first-section .container .row{
+  height: 430px;
+  position: relative;
+  left: -5px;
+  padding-right: 7px;
+  
+}
+section.first-section .container .row .video-on{
+  height: 100%;
+  padding-top: 22px;
+}
+section.first-section .container .row .video-on video{
+  width: 100%;
+  height:100%;
+}
+section.first-section .container .row .twitter-on{
+  padding-top: 22px;
+  width: 100%;
+  height: 100%;
+}
+section.first-section .container .row .twitter-on a{
+  width: 100%;
+  height: 100%;
+}
+/* section-inline start */
+/* section carousel */
+section .section-inline{
+  height: 400px;
+  background: #dfdfdf;
+}
+section .section-inline .card-body-slider{
+  height: 300px;
+}
+section .section-inline .card-body-slider .item .slider-write{
+  position: relative;
+  background: rgba(139, 0, 0, 0.5);
+  line-height: 110%;
+  color: white;
+  padding: 10px 0px 8px 15px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  bottom: 94px;
+  z-index: 2;
+}
+section .section-inline .card-body-slider .write{
+  position: relative;
+  top: 25px;
+  margin-bottom: 30px;
+}
+section .section-inline .card-body-slider .write p{
+  position: absolute;
+  display: inline-block;
+  left: 10px;
+  top: 5px;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  line-height: 110%;
+  color: white;
+  font-size: 18pt;
+  z-index: 1;
+}
+
+section .section-inline .card-body-slider .write img{
+  position: relative;
+}
+
+section .section-inline .card-body-slider .item{
+  width: 100%;
+  height: 300px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+section .section-inline .card-body-slider .item img{
+  width: 100%;
+  height: 100%;
+}
+section .section-inline .card-body-slider .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+section .section-inline .card-body-slider .owl-dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #cf0b0b !important;
+  margin-right: 0.5rem;
+  outline: 0 !important;
+}
+
+section .section-inline .card-body-slider .owl-dot.active {
+  background: #cf0b0b !important;
+}
+
+/* section card başkan */
+section .section-inline .card-body-card{
+  position: relative;
+}
+section .section-inline .card-body-card .write{
+  position: relative;
+  top: 25px;
+  left: 30px;
+  margin-bottom: 30px;
+}
+section .section-inline .card-body-card .write p{
+  position: absolute;
+  display: inline-block;
+  font-size: 18pt;
+  left: 10px;
+  top: 5px;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  line-height: 110%;
+  color: white;
+}
+
+
+section .section-inline .card-body-card .president a h3{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 14pt;
+  left: 5px;
+  top: 3px;
+  z-index: 1;
+}
+section .section-inline .card-body-card .president img.background{
+  position: absolute;
+  bottom: -13px;
+  left: 40px;
+  
+}
+
+section .section-inline .card-body-card .president img.img-president{
+  position: relative;
+  padding-left: 28px;
+  width: 345px;
+  height: 265px;
+  z-index: 1;
+  
+}
+/* Section-2 section-2 section-2*/
+section .slider-2{
+  background-image: url("../img/hourse2.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+}
+section .slider-2 .container p{
+  font-size: 30pt;
+  color: white;
+  margin-top: 50px;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+section .slider-2 .container .owl-carousel .item{
+  width: 350px;
+  height: 400px;
+  background: white;
+  padding: 16px;
+}
+section .slider-2 .container .owl-carousel .card-1{
+  position: relative;
+  
+}
+section .slider-2 .container .owl-carousel .card-1 img{
+  width: 320px;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-1 p{
+  font-size: 20pt;
+  color: white;
+  background:rgba(184, 55, 46, 0.5);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 24px;
+  z-index: 2;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+
+  transition: width 2s, height 2s, transform 2s;
+}
+section .slider-2 .container .owl-carousel .card-1 p:hover {
+  width: 100%;
+  height: auto;
+  transform: rotate(360deg);
+}
+section .slider-2 .container .owl-carousel .card-2 h3{
+  font-size:20pt;
+  padding-top: 10px;
+  color: #212529;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  line-height: 110%;
+  
+}
+section .slider-2 .container .owl-carousel .card-2 h6{
+  font-size: 13pt !important;
+  margin-top:35px;
+  color: #707070;
+  font-weight: normal !important;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+section .slider-2 .container .owl-carousel .card-3{
+  position: relative;
+}
+section .slider-2 .container .owl-carousel .card-3 img{
+  width: 320px;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-3 p{
+  font-size: 34pt;
+  color: white;
+  background:rgba(168, 168, 12, 0.5);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 24px;
+  z-index: 2;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+section .slider-2 .container .owl-carousel .card-3 p:hover {
+  width: 100%;
+  height: auto;
+  transform: rotate(360deg);
+}
+section .slider-2 .container .owl-carousel .card-4 h3{
+  font-size:20pt;
+  padding-top: 10px;
+  color: #212529;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  line-height: 110%;
+}
+section .slider-2 .container .owl-carousel .card-4 h6{
+  font-size: 13pt !important;
+  margin-top:50px;
+  color: #707070;
+  font-weight: normal !important;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+
+}
+section .slider-2 .container .owl-carousel .card-5{
+  position: relative;
+}
+section .slider-2 .container .owl-carousel .card-5 img{
+  width: 320px;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-5 p{
+  font-size: 34pt;
+  color: white;
+  background:rgb(130, 42, 212,0.5);
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 24px;
+  z-index: 2;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  transition: width 2s, height 2s, transform 2s;
+
+}
+section .slider-2 .container .owl-carousel .card-5 p:hover {
+  width: 100%;
+  height: auto;
+  transform: rotate(360deg);
+}
+section .slider-2 .container .owl-carousel .card-6 h3{
+  font-size:20pt;
+  padding-top: 10px;
+  color: #212529;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  line-height: 110%;
+}
+section .slider-2 .container .owl-carousel .card-6 h6{
+  font-size: 13pt !important;
+  margin-top:50px;
+  color: #707070;
+  font-weight: normal !important;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+
+}
+
+
+section .slider-2 .container .owl-carousel .owl-dots{
+  display: none;
+}
+section .slider-2 .container .owl-carousel .owl-nav{
+  position: absolute;
+  display: flex;
+  color: white;
+  top: -92px;
+  right: 20px;
+  font-size:80px;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel .owl-nav .owl-next{
+  margin-left: 20px;
+  width: 20px;  
+}
+/*section 3 start*/
+.section-thirth{
+  background-image: url(../img/background-section-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-thirth .photo{
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+  height: 300px;
+  padding-top: 15px;
+}
+/* The Image */
+.section-thirth .photo .responsive div img.img02 {
+  width: 100%;
+  height: 250px;
+  cursor: pointer;
+}
+.section-thirth .photo .responsive div img.img02:hover {
+  width: 101%;
+  height: 252px;
+}
+
+
+
+/* Add Responsiveness */
+.section-thirth .photo .responsive {
+  margin: 6px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+/* The Modal (background) */
+.section-thirth .photo .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.section-thirth .photo .modal .modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+.section-thirth #caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.section-thirth .modal-content, #caption {    
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0.1)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.section-thirth .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.section-thirth .close:hover,
+.section-thirth .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Responsive Columns */
+@media only screen and (max-width: 700px){
+.section-thirth .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+  }
+  .section-thirth .modal-content {
+      width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+.section-thirth {
+      display: none;
+  }
+}
+
+/* Clear Floats */
+.section-thirth .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*section 3 end*/
+
+
+/* footer */
+/* footer left */
+footer .footer-card{
+  position: relative;
+  content: "";
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  background: url("../img/footer-line.png") no-repeat center;
+  overflow: hidden;
+  border-top: 6px solid #7c0a0a;
+}
+footer .footer-card{
+  background-size: cover;
+}
+footer .footer-card .footer-inline{
+  padding-top:35px;
+  padding-bottom: 30px;
+}
+footer .footer-card .footer-inline .left{
+  padding-left: 25px;
+  padding-right: 50px;
+}
+footer .footer-card .footer-inline .left .logo{
+  width: 200px;
+  height: 100px;
+}
+footer .footer-card .footer-inline .left .logo img{
+  width: 100%;
+  height: 100%;
+}
+footer .footer-card .footer-inline .left .follow{
+  font-size: 14pt;
+  color: white;
+  padding-top: 20px;
+  padding-left: 42px;
+}
+footer .footer-card .footer-inline .left .icons{
+  padding-left: 32px;
+  margin-top: 15px;
+}
+footer .footer-card .footer-inline .left .icons i{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+footer .footer-card .footer-inline .left .icons i.fab.fa-facebook{
+  font-size: 14pt;
+  color: white;
+}
+footer .footer-card .footer-inline .left .icons i.fab.fa-twitter{
+  font-size: 14pt;
+  color: rgb(115, 118, 247);
+}
+footer .footer-card .footer-inline .left .icons i.fab.fa-youtube{
+  font-size: 14pt;
+  color: red;
+}
+footer .footer-card .footer-inline .left .copy{
+  display: inline-block;
+  font-size: 9pt;
+  color: white;
+  text-align: center;
+  padding-left: 40px;
+  margin-top: 15px;
+}
+
+/* footer center */
+footer .footer-card .center{
+  text-align: left;
+  padding-left: 95px;
+}
+
+footer .footer-card .center .center-inline h2{
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+footer .footer-card .center .center-inline ul h2{
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 8px;
+}
+footer .footer-card .center .center-inline ul li{
+  line-height: 20px;
+  padding-left: 25px;
+  font-size: 9pt;
+  color:white;
+}
+/* footer Right */
+footer .footer-card .right{
+  text-align: left;
+  padding-left: 95px;
+}
+
+footer .footer-card .right .right-inline h2{
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+footer .footer-card .right .right-inline ul h2{
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 8px;
+}
+footer .footer-card .right .right-inline ul h2.fax{
+  font-size: 12pt;
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 8px;
+  text-decoration: none;
+}
+footer .footer-card .right .right-inline ul li{
+  line-height: 20px;
+  padding-left: 25px;
+  font-size: 9pt;
+  color:white;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/* myModal */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 2;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+

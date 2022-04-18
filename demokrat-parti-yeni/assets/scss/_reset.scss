@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select, textarea, button,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: normal;
+}
+*{
+  font-family: "Myriad Pro", sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+.clear {
+  clear: both;
+}
+.ml-auto{
+  margin-left: auto;
+}
+.nav-link{
+  font-size: 22pt;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff!important;
+  margin-right: 2rem;
+}
+.owl-dots{
+  position: absolute;
+  bottom: 10px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.owl-dot{
+  width:20px;
+  height: 20px;
+  border: 2px solid #cf0b0b!important;
+  margin-right: .5rem;
+  outline: 0!important;
+}
+.owl-dot.active{
+  background: #cf0b0b!important;
+}

@@ -1,0 +1,93 @@
+ /* genelbaskan-page */
+ section .name{
+    position: relative;
+    top: 45px;
+    left: 0px;
+    margin-bottom: 65px;
+  }
+  section .name p{
+    font-size: 24pt;
+    color: #383838;
+  }
+  section .name img{
+    position: relative;
+    top: -9px;
+    width: 14rem;
+
+  }
+
+
+  section .middle{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+  }
+  section .middle .passage{
+    position: relative;
+    left: 45px;
+    height: auto;
+  }
+  section .middle .passage p{
+    font-size: 14pt;
+    line-height: 30px;
+  }
+  section .middle .baskan img{
+    width: 310px;
+    height: 275px;
+  }
+  section .middle .baskan .color{
+      position: relative;
+      top: -2px;
+      width: 310px;
+      height: 50px;
+      text-align: center;
+      background: #dfe0e0;
+  }
+  section .middle .baskan .color i{
+      position: relative;
+      font-size: 30px;
+      padding: 0 50px;
+      top: 8px;
+      color: #bcbcbc;
+  }
+  /* genel-baskan page media */
+  @media screen and (max-width:992px){
+    section .middle{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+      }
+      section .middle .passage{
+        position: relative;
+        top: 30px;
+        left: 0;
+        padding-bottom: 30px;
+      }
+  }
+  @media screen and (max-width:767px){
+    section .middle .passage p{
+        font-size: 16pt;
+      }
+    header{
+        height: auto;
+    }
+  }
+  @media screen and (max-width:320px){
+    section .middle .baskan img{
+        width: 250px;
+        height: 225px;
+      }
+      section .middle .baskan .color{
+        width: 250px;
+        height: 40px;
+    }
+    section .middle .baskan .color i{
+        position: relative;
+        font-size: 20px;
+        padding: 0 30px;
+        top: 8px;
+        color: #bcbcbc;
+    }
+  }

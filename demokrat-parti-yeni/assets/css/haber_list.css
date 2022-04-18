@@ -1,0 +1,247 @@
+/* for haberler page */
+
+section .news{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+section .news .left{
+    position: relative;
+    width: 26%;
+}
+section .news .left .top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+section .news .left .top a{
+    font-size: 16pt;
+    color: #525252;
+}
+section .news .left .top p{
+    font-size: 16pt;
+    color: #525252;
+    padding: 0 5px;
+}
+
+
+
+section .news .left .middle img{
+    position: relative;
+    float: left;
+    width: 50px;
+}
+section .news .left .middle p{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    float: left;
+    font-size: 24pt;
+    color: #ed1c24;
+} 
+
+section .news .left .line{
+    width: 285px;
+}
+section .news .left .line img{
+    width: 285px;
+}
+
+section .news .left .bottom a{
+    display: block;
+    margin-top: 20px;
+    font-size: 12pt;
+    color: #2e2e2e;
+}
+section .news .left .bottom a:hover{
+    color: rgb(143, 103, 103);
+}
+/* section right */
+section .right{
+    width: 74%;
+    padding-left: 65px;
+    margin-bottom: auto;
+    margin-top: 32px;
+}
+section .right .news{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+section .right .news .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section .right .news .box .inside-box{
+    position: relative;
+    margin-bottom: 0px;
+    margin: 10px;
+    width: 230px;
+    height: 180px;
+}
+section .right .news .box .inside-box img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+section .right .news .box .inside-box .in{
+    position:absolute;
+    bottom: 0px;
+    background: rgba(71, 40, 40, 0.5);
+    width: 100%;
+    height: 60px;
+    padding: 10px 10px;
+    line-height: 14px;
+}
+section .right .news .box .inside-box .in p{
+    font-size: 12px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+    overflow: hidden;
+}
+section .right .more-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+section .right .more-info h3{
+    font-size: 14pt;
+    color: #222222;
+}
+section .right .more-info i{
+    display: block;
+    font-size: 14pt;
+    color: #ba0001;
+}
+section .right .more-info h3:hover{
+    color: rgb(143, 103, 103);
+}
+section .right .more-info i:hover{
+    color: rgb(143, 103, 103);
+}
+
+
+@media screen and (max-width:992px){
+    section .right{
+        margin-bottom: 40px;
+    }
+    section .news .left .bottom a{
+        margin-top: 12px;
+        font-size: 12pt;
+    }
+    section .news .left .line{
+        width: 200px;
+    }
+    section .news .left .line img{
+        width: 200px;
+    }
+    section .right .bottom h1{
+        font-size: 17pt;
+    }
+    section .right .bottom p{
+        top: 70px;
+        font-size: 12pt;
+        line-height: 25px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    section .news{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    section .news .left{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    section .news .left .middle img{
+        width: 75px;
+    }
+    section .right{
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+    section .news .left .middle p{
+        top: 13px;
+        font-size: 42pt;
+    } 
+    section .news .left .line{
+        position: relative;
+        width: 375px;
+        top: 5px;
+    }
+    section .news .left .line img{
+        width: 375px;
+    }
+    section .news .left .bottom a{
+        margin-top: 12px;
+        font-size: 12pt;
+    }
+    
+}
+@media screen and (max-width:524px) {
+    section .right .news{
+        display: flex;
+        flex-direction: column;
+        padding:20px
+    }
+    section .right .news .box{
+        display: flex;
+        flex-direction: column;
+    }
+    section .right .news .box .inside-box{
+        position: relative;
+        width: 100%;
+        height: 180px;
+    }
+    section .right .news .box .inside-box img{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    section .right .news .box .inside-box .in{
+        position:absolute;
+        bottom: 0px;
+        background: rgba(71, 40, 40, 0.5);
+        width: 100%;
+        height: 53px;
+        padding: 10px 10px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width:480px){
+    section .news .left .middle img{
+        width: 40px;
+    }
+    section .right{
+        width: 100%;
+        padding-left: 0px;
+        margin-bottom: 50px;
+    }
+    section .news .left .middle p{
+        top: 7px;
+        font-size: 24pt;
+    } 
+    section .news .left .line{
+        width: 240px;
+        top: 2px;
+    }
+    section .news .left .line img{
+        width: 240px;
+    }
+    section .news .left .bottom a{
+        margin-top: 12px;
+        font-size: 12pt;
+    }
+   
+}

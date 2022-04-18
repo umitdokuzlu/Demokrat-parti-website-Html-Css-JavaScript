@@ -1,0 +1,322 @@
+.main-section{
+    position: relative;
+}
+section .container .section-one{
+    position: relative;
+    top:60px;
+    height: 250px;
+    margin-bottom: 70px;
+}
+section .container .section-one .top{
+    position: relative;
+    width: 100%;
+    height: 90px;
+}
+section .container .section-one .top img{
+    width: 100%;
+    height: 100%;
+}
+section .container .section-one .top .last{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+section .container .section-one .top .last h3{
+    position: absolute;
+    font-size: 36pt;
+    color: #ffff;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 250px;
+}
+section .container .section-one .top .last p{
+    position: absolute;
+    margin-left: 500px;
+    padding-top: 11px;
+    font-size: 14pt;
+    color: #ffff;
+    margin-top: 34px;
+}
+section .container .section-one .middle{
+    position: relative;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+}
+section .container .section-one .middle .last {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 100%;
+}
+section .container .section-one .middle .last img{
+    width: 100%;
+    height: 100%;
+}
+section .container .section-one .middle .last p{
+    position: absolute;
+    font-size: 14pt;
+    color: #ffff;
+    margin-left: 255px;
+    margin-top:10px ;
+}
+section .container .section-one .middle .last .icons{
+    position: absolute;
+    font-size: 14pt;
+    color: #ffff;
+    margin-top: 10px;
+    right: 16rem;
+}
+
+section .container .section-one .middle .icons a{
+    font-size: 14pt;
+    color: #ffff;
+}
+section .container .section-one .middle i.fa-twitter{
+    margin-left: 10px;
+}
+section .container .section-one .bottom{
+    position: absolute;
+}
+section .container .section-one .bottom{
+    position: absolute;
+    height: 190px;
+    width: 180px;
+    top:0;
+}
+section .container .section-one .bottom img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 20px;
+    left: 30px;
+}
+section .container .section-two{
+    margin-bottom: 75px;
+}
+section .container .section-two p{
+    font-size: 14pt;
+    line-height: 30px;
+}
+
+@media screen and (max-width:992px) {
+    section .container .section-one{
+        position: relative;
+        top:70px;
+        height: 250px;
+        margin-bottom: 60px;
+    }
+    section .container .section-one .top{
+        position: relative;
+        width: 100%;
+        height: 75px;
+    }
+    section .container .section-one .top .last{
+        width: 100%;
+        height: 75px;
+        display: flex;
+        flex-direction: row;
+    }
+    section .container .section-one .top img{
+        width: 95%;
+        height: 100%;
+    }
+    section .container .section-one .top .last h3{
+        position: absolute;
+        font-size: 24pt;
+        color: #ffff;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-left: 250px;
+    }
+    section .container .section-one .top .last p{
+        position: absolute;
+        margin-left: 420px;
+        padding-top: 8px;
+        font-size: 10pt;
+        color: #ffff;
+        margin-top: 30px;
+    }
+
+    section .container .section-one .middle .last .icons{
+        position: absolute;
+        font-size: 14pt;
+        color: #ffff;
+        margin-top: 10px;
+        right: 10rem;
+    }
+    section .container .section-one .bottom{
+        position: absolute;
+        height: 170px;
+        width: 160px;
+        top:0;
+    }
+    section .container .section-two p{
+        font-size: 14pt;
+    }
+  
+}
+@media screen and (max-width:767px) {
+    section .container .section-one{
+        position: relative;
+        top:50px;
+        height: 250px;
+        margin-bottom: 30px;
+    }
+    section .container .section-one .top .last h3{
+        position: absolute;
+        font-size: 16pt;
+        color: #ffff;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+    section .container .section-one .top .last p{
+        position: absolute;
+        margin-left: 320px;
+        font-size: 10pt;
+        color: #ffff;
+        margin-top: 27px;
+    }
+    section .container .section-one .middle .last p{
+        position: absolute;
+        font-size: 14pt;
+        color: #ffff;
+        margin-left: 201px;
+        margin-top:10px ;
+    }
+    section .container .section-one .middle .last .icons{
+        position: absolute;
+        font-size: 10pt;
+        color: #ffff;
+        margin-top: 10px;
+        right: 6rem;
+    }
+  
+    section .container .section-one .bottom{
+        position: absolute;
+        height: 170px;
+        width: 160px;
+        top:0;
+    }
+    section .container .section-two p{
+        font-size: 14pt;
+    }
+    section .container .section-one .bottom{
+        position: absolute;
+        height: 150px;
+        width: 140px;
+        top:0;
+    }
+    section .container .section-one .bottom img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 20px;
+        left: 30px;
+    }
+}
+@media screen and (max-width:480px) {
+    .main-section{
+        position: relative;
+    }
+  
+    section .container .section-one{
+        position: relative;
+        height: 390px;
+        top:40px;
+        margin-bottom: 10px;
+    }
+    section .container .section-one .top{
+        position: relative;
+        width: 100%;
+        height: 50px;
+    }
+    section .container .section-one .top img{
+        width: 100%;
+        height: 100%;
+    }
+    section .container .section-one .top .last{
+        width: 92%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    section .container .section-one .top .last h3{
+        position: absolute;
+        font-size: 20pt;
+        color: #ffff;
+        font-weight: bold;
+        margin-left: 13px;
+        margin-top:15px;
+    }
+    section .container .section-one .top .last p{
+        position: absolute;
+        margin-left: 160px;
+        padding-top: 5px;
+        font-size: 12pt;
+        color: #ffff;
+        margin-top: 15px;
+    }
+    section .container .section-one .middle{
+        position: relative;
+        width: 100%;
+        height: 35px;
+        margin-top: 20px;
+    }
+    section .container .section-one .middle .last {
+        display: flex;
+        flex-direction: row;
+        width: 85%;
+        height: 100%;
+    }
+    section .container .section-one .middle .last img{
+        width: 100%;
+        height: 100%;
+    }
+    section .container .section-one .middle .last p{
+        position: absolute;
+        font-size: 14pt;
+        color: #ffff;
+        margin-left: 16px;
+        margin-top:10px ;
+    }
+    section .container .section-one .middle .last .icons{
+        position: absolute;
+        font-size: 14pt;
+        color: #ffff;
+        margin-top: 10px;
+        right: 6rem;
+    }
+    
+    section .container .section-one .middle .icons a{
+        font-size: 14pt;
+        color: #ffff;
+    }
+    section .container .section-one .middle i.fa-twitter{
+        margin-left: 10px;
+    }
+    section .container .section-one .bottom{
+        position: relative;
+    }
+    section .container .section-one .bottom{
+        height: 190px;
+        width: 180px;
+        top:0;
+    }
+    section .container .section-one .bottom img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        top: 20px;
+        left: 0;
+    }
+    section .container .section-two{
+        position: relative;
+        margin-bottom: 75px;
+    }
+    section .container .section-two p{
+        font-size: 14pt;
+    }
+}

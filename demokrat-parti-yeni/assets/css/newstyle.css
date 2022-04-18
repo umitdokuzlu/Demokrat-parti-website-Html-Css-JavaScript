@@ -1,0 +1,8 @@
+/* new style for header-inline */
+header .header-inline {
+    position: relative;
+    padding: 8px 0 0px;
+  }
+  header {
+   height:auto;
+  }

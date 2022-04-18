@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demokrat Parti</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- sadece anasayfa için start -->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- sadece anasayfa için and -->
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+<header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container nav-container">
+            <!-- Logo -->
+            <a href="#" class="navbar-brand">
+                <img src="assets/img/logo.png" class="header-logo" alt="Logo">
+            </a>
+            <!-- End Logo -->
+            <!-- Mobile Toggler Button -->    
+           
+            <!-- End Toggler Button -->
+            <!-- Collapse Navbar -->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="before"><img src="assets/img/nav-before.png" alt=""></div>
+                <div class="after"><img src="assets/img/new-header-line.png" alt=""></div>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PARTİ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">HAKKIMIZDA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">HABERLER</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            DP KADRO
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">KADROMUZ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            İLLER
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">ANKARA</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">BİZE ULAŞIN</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Collapse Navbar -->
+            <!--start mobile menu-->
+            <div class="mobile">
+                <div class="btn">
+                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-times"></i>
+                </div>
+                <ul class="open">
+                    
+                    <li>
+                        <a href="#">Parti</a>
+                        <ul>
+                            <li><a href="#">hakkımızda</a></li>
+                            <li><a href="#">kategori1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Haberler</a>
+                    </li>
+                    <li>
+                        <a href="#">Dp kadro</a>
+                        <ul>
+                            <li><a href="#">hakkımızda</a></li>
+                            <li><a href="#">kategori1</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">İller</a>
+                        <ul>
+                            <li><a href="#">hakkımızda</a></li>
+                            <li><a href="#">kategori1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Bize Ulaşın</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- myModal Form -->
+    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Üye Ol</button>
+
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Üye Ol</h1>
+          <hr>
+          <label for="ad"><b>Ad</b></label>
+          <input type="text" placeholder="Ad" name="ad" required>
+
+          <label for="soyad"><b>Soyad</b></label>
+          <input type="text" placeholder="Soyad" name="soyad" required>
+
+          <label for="kimlikno"><b>TC Kimlik No</b></label>
+          <input type="text" placeholder="TC Kimlik No" name="kimlik" minlength="11" required>
+    
+          <label for="tel"><b>Telefon</b></label>
+          <input type="text" placeholder="Telefon" name="tel" style="display: block;" required>
+
+          <label for="il"><b>İl</b></label>
+          <input type="text" placeholder="il" name="il">
+
+          <label for="ilce"><b>İlçe</b></label>
+          <input type="text" placeholder="ilce" name="ilce">
+    
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="email" name="email">
+
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; display: inline; "><p style="display: inline; padding-left: 10px;"><a href="#" style="color:dodgerblue">üyelik sözleşmesi</a>'ni okudum kabul ediyorum.</p>
+          </label>
+    
+          
+    
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">Üye Ol</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- End Navigation -->
+    <div class="header-inline">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="owl-carousel top-carousel owl-theme">
+                        <div class="item">
+                            <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/05/27/thumbs_b_c_3a8ceb0f32a01fb8347a26bef9647574.jpg" alt="">
+                            <div class="date">29.12.2020</div>
+                            <div class="category">Genel Başkan Haberleri</div>
+                            <div class="title">
+                                Ordu Milletvekili Cemal Enginyurt, Genel Merkezde
+                                düzenlenen rozet takma töreniyle Demokrat Parti’ye
+                                resmen katıldı. Ordu Milletvekili..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/05/27/thumbs_b_c_3a8ceb0f32a01fb8347a26bef9647574.jpg" alt="">
+                            <div class="date">29.12.2020</div>
+                            <div class="category">Genel Başkan Haberleri</div>
+                            <div class="title">
+                                Ordu Milletvekili Cemal Enginyurt, Genel Merkezde
+                                düzenlenen rozet takma töreniyle Demokrat Parti’ye
+                                resmen katıldı. Ordu Milletvekili..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/05/27/thumbs_b_c_3a8ceb0f32a01fb8347a26bef9647574.jpg" alt="">
+                            <div class="date">29.12.2020</div>
+                            <div class="category">Genel Başkan Haberleri</div>
+                            <div class="title">
+                                Ordu Milletvekili Cemal Enginyurt, Genel Merkezde
+                                düzenlenen rozet takma töreniyle Demokrat Parti’ye
+                                resmen katıldı. Ordu Milletvekili..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="border-card">
+                        <div class="left">
+                            <img src="assets/img/genel-baskan.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="date">29.12.2020</div>
+                            <div class="category">Genel Başkan Haberleri</div>
+                            <div class="title">
+                                Demokrat Parti Genel Başkanı Gültekin Uysal'dan Çarpıcı Açıklamalar..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-card-2">
+                        <div class="left">
+                            <img src="assets/img/tumhaber.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="date">14.10.2020</div>
+                            <div class="category">Tüm Haberler</div>
+                            <div class="title">
+                                Demokrat Parti Genel Başkanı Gültekin Uysal'dan Çarpıcı Açıklamalar..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="border-card-3">
+                        <div class="left">
+                            <img src="assets/img/tumhaber.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="date">14.10.2020</div>
+                            <div class="category">Tüm Haberler</div>
+                            <div class="title">
+                                Demokrat Parti Genel Başkanı Gültekin Uysal'dan Çarpıcı Açıklamalar..
+                            </div>
+                            <div class="more-info">
+                                <a href="#">
+                                    Devamını Oku
+                                    <i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- header finish -->
+<!-- video section -->
+<section class="first-section">
+    <div class="sidenav">
+        <img src="./assets/img/izgara.png" class="images" alt="">
+        <button class="dropdown-btn container">
+            <div class="social">
+                <i class="fas fa-users"></i>
+            <p>Sosyal Medyada Birlikte Türkiyenin Geleceğine Yön Verelim</p>
+            <img class="" src="./assets/img/arrow.png" alt=""> 
+            </div>
+            <div class="sidenav-bottom">
+                <p>Tıkla Fikrini Dile Getir</p>
+                <img class="bottom" src="./assets/img/arrowbottom.png" alt="">
+                <img class="top" src="./assets/img/arrowtop.png" alt="">
+            </div>
+        </button>
+        <div class="dropdown-container ">
+          <div class="container yeni">
+            <div class="row general">
+                <div class="col-md-8 video-on">
+                    <video controls autoplay muted>
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                        <source src="assets/video/video.ogg" type="video/ogg">
+                    </video>
+                </div>
+                <div class="col-md-4">
+                    <div class="twitter-on">             
+                        <a class="twitter-timeline" data-height="408" data-theme="light" href="https://twitter.com/DpGultekinUysal?ref_src=twsrc%5Etfw">Tweets by DpGultekinUysal</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</section>
+<!-- gundem section start -->
+<section>
+<div class="section-inline">
+    <div class="container">
+        <div class="row">
+         <div class="card-body-slider col-md-8">
+            <div class="write">
+                <p>Gündem</p>
+                <img src="./assets/img/background-gundem.png" alt="">
+            </div>
+            <div class="owl-carousel mid-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/img/gundem-photo.png" alt="">  
+                    <div class="slider-write"><p>Demokrat Parti Genel Başkanı Gültekin Uysal, Cumhuriyet Halk Partisi Genel 
+                        Başkanı Kemal Kılıçdaroğlu ile Genel Merkezdeki makamında görüştü..</p></div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/gundem-photo.png" alt="">
+                    <div class="slider-write"><p>Demokrat Parti Genel Başkanı Gültekin Uysal, Cumhuriyet Halk Partisi Genel 
+                        Başkanı Kemal Kılıçdaroğlu ile Genel Merkezdeki makamında görüştü..</p></div>                       
+                </div>
+            </div>
+        </div>
+        <div class="card-body-card col-md-4">
+            <div class="write">
+                <p>Genel Başkan</p>
+                <img src="./assets/img/background-genelbaskan.png" alt="">
+            </div>
+            <div class="president">
+                <img class="img-president" src="assets/img/Gultekin-uysal.png" alt="">
+                <a href="#"><h3>Gültekin Uysal</h3></a>
+                <img class="background" src="./assets/img/genelbaskan-background-bottom.png" alt="">
+            </div>    
+        </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- section finish -->
+<!-- Section-2 Start -->
+<section>
+        <div class="slider-2">
+            <div class="container">
+                <p>Demokrat Parti İle Türkiye Değişecek</p>
+                <div class="owl-carousel owl-theme ">
+                    <div class="item">
+                        <div class="card-1">
+                            <img src="assets/img/adalet.png" alt="">
+                            <p>Adalet ve Hukuk</p>
+                        </div>
+                        <div class="card-2">
+                            <h3>Kamu Düzeni ve Hukukun Üstünlüğü</h3>
+                            <h6>Anayasayı öncelik alan,Adalet ve Hukukun Üstünlüğünü her zaman ön planda tutan bir Türkiye'de yaşamak için</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card-3">
+                            <img src="assets/img/egitim.png" alt="">
+                            <p>Eğitim</p>
+                        </div>
+                        <div class="card-4">
+                            <h3>Eğitimde Fırsat Eşitliği</h3>
+                            <h6>Türkiye Cumhuriyetinde yaşayan bütün bireylerin
+                                eğitimden eşit bir şekilde yararlanabilmesi için</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card-5">
+                            <img src="assets/img/ekonomi.png" alt="">
+                            <p>Ekonomi</p>
+                        </div>
+                        <div class="card-6">
+                            <h3>Güçlü ve Sağlam Ekonomi</h3>
+                            <h6>Kişi başı milli gelirin iyi yaşan standartları
+                                seviyesinde olması ve işsizliğin son bulması için</h6>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+</section>
+<!--section 2 end-->
+<!--section 3 start-->
+<section class="section-thirth">
+  <div class="photo container">
+
+    <div class="responsive">
+      <div>
+          <img class="img02" src="./assets/img/genelbaskan1.png" alt="Trolltunga Norway" width="300" height="200">
+      </div>
+    </div>
+    
+    
+    <div class="responsive">
+      <div>
+        <img class="img02" src="./assets/img/genelbaskan1.png" alt="Forest" width="300" height="200">
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div>
+        <img class="img02" src="./assets/img/genelbaskan1.png" alt="Northern Lights" width="300" height="200">
+      </div>
+    </div>
+    
+    <div class="responsive">
+      <div>
+        <img class="img02" src="./assets/img/genelbaskan1.png" alt="Mountains" width="300" height="200">
+      </div>
+    </div>
+    
+    <div class="clearfix"></div>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close"><i class="fas fa-times"></i></span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+</section>
+<!--section 3 end-->
+
+<!-- footer -->
+<footer>
+    <div class="footer-card">
+    <div class="container">
+        <div class="footer-inline row">
+            <div class="left col-md-4">
+                <div class="logo"><img src="assets/img/DP-logo.png" alt=""></div>
+                <div class="follow"><p>Bizi Takip Edin</p></div>
+                <div class="icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+                <div class="copy"><p>@2021 Demokrat Parti</p> <p>Tüm Hakları Saklıdır.</p></div>
+            </div>
+            <div class="center col-md-4">
+                <div class="center-inline">
+                    <h2>MEDYA</h2>
+                    <ul>
+                        <a href="#"><li>Haberler</li></a>
+                        <a href="#"><li>Fotoğraf Galerisi</li></a>
+                        <a href="#"><li>Video Galerisi</li></a>
+                        <a href="#"><li>Raporlar & Formlar</li></a>
+                        <a href="#"><li>Tv Programları</li></a>
+                        <a href="#"><li>Müzikler</li></a>
+                    </ul>
+                    <ul>
+                    <h2>BİRİMLER</h2>
+                        <a href="#"><li>Başkanlık Divanı</li></a>
+                        <a href="#"><li>Genel İdare Kurulu</li></a>
+                        <a href="#"><li>Merkez Karar Kurulu</li></a>
+                        <a href="#"><li>Yüksek Haysiyet Divanı</li></a>
+                    </ul>
+                    
+            </div>
+            </div>
+            <div class="right col-md-4">
+                <div class="right-inline">
+                    <h2>GENEL MERKEZ</h2>
+                    <ul>
+                        <li>Dr.Sadık Ahmet Cad. No:3,06520</li>
+                        <li>Çankaya/Ankara,Türkiye</li>
+                    </ul>
+                    <ul>
+                    <h2>İLETİŞİM</h2>
+                        <li>Genel Merkez İletişim</li>
+                        <li>(0312)248 86 00</li>
+                    </ul>
+                    <ul>
+                    <h2 class="fax">Fax</h2>
+                        <li>(0312)248 86 00</li>
+                    </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/jquery-3.5.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

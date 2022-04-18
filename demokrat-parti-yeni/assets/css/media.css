@@ -1,0 +1,1689 @@
+/* extra-large screen */
+.container{
+  max-width: 1140px!important;
+}
+@media screen and (max-width:4002px){
+  section .slider-2{
+    background-image: url("../img/horse4.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  section .slider-2 .container .owl-carousel .owl-nav{
+    position: absolute;
+    display: flex;
+    color: white;
+    top: -90px;
+    right: 75px;
+    font-size:80px;
+    font-weight: bold;
+  }
+  header {
+    background-image: url("../img/new-background.png");
+    background-repeat:repeat-x;
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+  }
+  header .header-inline:before {
+    width: 75%;
+  }
+  /* Section-2 section-2 section-2 */
+  section .slider-2 .container p{
+    font-size: 28pt;
+  }
+  section .slider-2 .container .owl-carousel .item{
+    width: 360px;
+  }
+  section .slider-2 .container .owl-carousel .card-1 img{
+    width: 100%;
+  }
+  section .slider-2 .container .owl-carousel .card-1 p{
+    font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-2 h3{
+    font-size:14pt;
+  }
+  section .slider-2 .container .owl-carousel .card-2 h6{
+    font-size: 14pt;
+  }
+  section .slider-2 .container .owl-carousel .card-3 img{
+    width: 100%;
+  }
+  section .slider-2 .container .owl-carousel .card-3 p{
+      font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-4 h3{
+    font-size:14pt;
+  }
+  section .slider-2 .container .owl-carousel .card-4 h6{
+    font-size: 14pt;
+    margin-top: 32px;
+  }
+  section .slider-2 .container .owl-carousel .card-5 img{
+    width: 100%;
+  }
+  section .slider-2 .container .owl-carousel .card-5 p{
+    font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-6 h3{
+    font-size:14pt;
+  }
+  section .slider-2 .container .owl-carousel .card-6 h6{
+    font-size: 14pt;
+    margin-top: 30px;
+  }
+  section .slider-2 .container .owl-carousel .owl-nav{
+    position: absolute;
+    display: flex;
+    color: white;
+    top: -92px;
+    right: 2px;
+    font-size:80px;
+    font-weight: bold;
+  } 
+
+ 
+
+}
+@media screen and (max-width:3000px){
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 30px;
+    top: -2rem;
+    right: -35rem;
+    overflow: hidden;
+  }
+}
+/* for header-line */
+@media screen and (max-width:2500px){
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 30px;
+    top: -2rem;
+    right: -30rem;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:2200px){
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 30px;
+    top: -2rem;
+    right: -24rem;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:1901px){
+  section .slider-2{
+    background-image: url("../img/hourse.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+  }
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 30px;
+    top: -2rem;
+    right: -35rem;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width:1400px){
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 30px;
+    top: -2rem;
+    right: -10rem;
+    overflow: hidden;
+  }
+  section .slider-2 .container .owl-carousel .item{
+    width: 350px;
+    height: 400px;
+    background: white;
+    padding: 16px;
+  }
+  section .slider-2 .container .owl-carousel .card-4 h6{
+    margin-top:37px;
+  }
+  section .slider-2 .container .owl-carousel .card-6 h6{
+    margin-top:35px;
+  }
+  header .header-inline .item .title {
+    font-size: 14pt;
+  }
+
+}
+/* for desktop */
+@media screen and (max-width:1200px){
+  header .header-inline:before {
+    position: absolute;
+    content: "";
+    background: url("../img/nav-after.png") no-repeat;
+    background-size: 100%;
+    width: 80%;
+    height: 30px;
+    top: -2rem;
+    right: -6rem;
+    overflow: hidden;
+  }
+header nav .nav-container .navbar-brand img{
+ height: 100%;
+}
+    .nav-link {
+        font-size: 16pt;
+      }
+      header .header-inline .item .title {
+        font-size: 14pt;
+      }
+      header .header-inline .item .more-info {
+      padding-top: 9px;
+      }
+      .owl-dot {
+        width: 15px;
+        height: 15px;
+      }
+      /* card-1 */
+      header .header-inline .border-card .right .date{
+        font-size: 13pt;
+        padding-top: 9px;
+      }
+      header .header-inline .border-card .right .category{
+        font-size: 10pt;
+      }
+      header .header-inline .border-card .right .title{
+        padding-top: 10px;
+        font-size: 12pt;
+      }
+      header .header-inline .border-card .right .more-info {
+        font-size: 10pt;
+        margin-top: 8px;
+      }
+      /* card-2 */
+      header .header-inline .border-card-2 .right .date{
+        font-size: 13pt;
+        padding-top: 9px;
+      }
+      header .header-inline .border-card-2 .right .category{
+        font-size: 10pt;
+        margin-right: -10px;
+      }
+      header .header-inline .border-card-2 .right .title{
+        padding-top: 10px;
+        font-size: 12pt;
+      }
+      header .header-inline .border-card-2 .right .more-info {
+        font-size: 10pt;
+        margin-top: 8px;
+      }
+
+      /* Section-inline start */
+      /* section carousel */
+      section .section-inline .card-body-slider .item .slider-write{
+        font-size: 12pt;
+      }
+      /* Section-2 section-2 section-2 */
+      section .slider-2 .container p{
+        font-size: 24pt;
+      }
+      section .slider-2 .container .owl-carousel .item{
+        width: 300px;
+      }
+      section .slider-2 .container .owl-carousel .card-1 img{
+        width: 270px;
+      }
+      section .slider-2 .container .owl-carousel .card-1 p{
+        font-size: 16pt;
+      }
+      section .slider-2 .container .owl-carousel .card-2 h3{
+        font-size:14pt;
+      }
+      section .slider-2 .container .owl-carousel .card-2 h6{
+        font-size: 16px;
+        margin-top: 25px;
+      }
+      section .slider-2 .container .owl-carousel .card-3 img{
+        width: 270px;
+      }
+      section .slider-2 .container .owl-carousel .card-3 p{
+          font-size: 16pt;
+      }
+      section .slider-2 .container .owl-carousel .card-4 h3{
+        font-size:14pt;
+      }
+      section .slider-2 .container .owl-carousel .card-4 h6{
+        font-size: 16px;
+        margin-top: 42px;
+      }
+      section .slider-2 .container .owl-carousel .card-5 img{
+        width: 270px;
+      }
+      section .slider-2 .container .owl-carousel .card-5 p{
+        font-size: 16pt;
+      }
+      section .slider-2 .container .owl-carousel .card-6 h3{
+        font-size:14pt;
+      }
+      section .slider-2 .container .owl-carousel .card-6 h6{
+        font-size: 16px;
+        margin-top: 38px;
+      }
+      section .slider-2 .container .owl-carousel .owl-nav{
+        position: absolute;
+        display: flex;
+        color: white;
+        top: -92px;
+        right: 2px;
+        font-size:80px;
+        font-weight: bold;
+      }
+      /* section 2 genel baskan */
+      section .section-inline .card-body-card .write{
+       left: 12px;
+      }
+      section .section-inline .card-body-card .president img.img-president{
+
+        padding-left: 15px;
+        width: 300px;
+        height: 260px;
+      }
+      section .section-inline .card-body-card .president img.background{
+        position: absolute;
+        width: 285px;
+        bottom: -13px;
+        left: 26px;
+        
+      }
+      section .section-inline .card-body-card .president a h3{
+      position: relative;
+      text-align: center;
+      color: white;
+      font-size: 14pt;
+      left: -14px;
+      top: 3px;
+    }
+      /* footer */
+      footer .footer-card .footer-inline{
+        padding-bottom: 30px;
+      }
+      /* footer left */
+      footer .footer-card .footer-inline .left .follow{
+        font-size: 17pt;
+        position: relative;
+        margin-top: 5px;
+        left: -10px;
+      }
+      footer .footer-card .footer-inline .left .logo{
+        width: 200px;
+        height: 100px;
+      }
+      footer .footer-card .footer-inline .left .icons {
+        position: relative;
+        left: -14px;
+      }
+      footer .footer-card .footer-inline .left .copy{
+        position: relative;
+        left: -10px;
+        font-size: 10pt;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-facebook{
+        font-size: 30px;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-twitter{
+        font-size: 30px;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-youtube{
+        font-size: 30px;
+      }
+      /* footer center */
+      footer .footer-card .center{
+        padding-left: 40px;
+      }
+      footer .footer-card .center .center-inline h2{
+        font-size: 16pt;
+      }
+      footer .footer-card .center .center-inline ul h2{
+        font-size: 16pt;
+      }
+      footer .footer-card .center .center-inline ul li{
+        padding-left: 20px;
+        font-size: 12pt;
+        line-height: 16px;
+      }
+      /* footer right */
+      footer .footer-card .right{
+        padding-left: 40px;
+      }
+      footer .footer-card .right .right-inline h2{
+        font-size: 16pt;
+      }
+      footer .footer-card .right .right-inline ul h2{
+        font-size: 16pt;
+      }
+      footer .footer-card .right .right-inline ul li{
+        padding-left: 20px;
+        font-size: 12pt;
+        line-height: 16px;
+      }
+    
+
+}
+
+/* small screen- for laptops */
+@media screen and (max-width:1024){
+ 
+  /* Section-2 section-2 section-2*/
+  section .slider-2 .container p{
+    font-size: 24pt;
+}
+section .slider-2 .container .owl-carousel .item{
+    width: 250px;
+    height: 300px;
+  }
+  section .slider-2 .container .owl-carousel .card-1 img{
+    width: 300px;
+    height: 280px;
+  }
+  section .slider-2 .container .owl-carousel .card-1 p{
+    font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-2 h3{
+    font-size:13pt;
+  }
+  section .slider-2 .container .owl-carousel .card-2 h6{
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  section .slider-2 .container .owl-carousel .card-3 img{
+    width: 200px;
+    height: 180px;
+  }
+  section .slider-2 .container .owl-carousel .card-3 p{
+    font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-4 h3{
+    font-size:13pt;
+  }
+  section .slider-2 .container .owl-carousel .card-4 h6{
+    font-size: 13px;
+    margin-top:25px;
+  }
+  section .slider-2 .container .owl-carousel .card-5 img{
+    width: 200px;
+    height: 180px;
+  }
+  section .slider-2 .container .owl-carousel .card-5 p{
+    font-size: 20pt;
+  }
+  section .slider-2 .container .owl-carousel .card-6 h3{
+    font-size:13pt;
+  }
+  section .slider-2 .container .owl-carousel .card-6 h6{
+    font-size: 13px;
+    margin-top:25px;
+  }
+  section .slider-2 .container .owl-carousel .owl-nav{
+    font-size:60px;
+    top: -80px;
+  }
+  section .slider-2 .container .owl-carousel .owl-nav .owl-next{
+    margin-left: 15px;
+    width: 20px;  
+  }
+
+     
+}
+@media screen and (max-width:992px){
+    /* top-carousel */
+    header .header-inline .container .owl-carousel.top-carousel .owl-nav{
+      font-size: 47px;
+      bottom: -5.9px;
+    }
+    header .header-inline .container .owl-carousel.top-carousel .owl-nav button.owl-prev{
+      margin-left: 70px;
+    }
+    header .header-inline .container .owl-carousel.top-carousel .owl-nav .owl-next{
+      margin-right:80px ;
+
+    }
+    .owl-dot {
+        width: 15px;
+        height: 15px;
+      }
+      /* logo */
+      header nav .nav-container .navbar-brand {
+        height: 125px;
+      }
+    header .header-inline .item {
+        width: 100%;
+        height: 492px;
+        background: #eeee;
+        box-sizing: border-box;
+        padding: 18px;
+      }
+    header .header-inline:before {
+        display: none;
+      }
+      header .header-inline .item img {
+        height: 220px;
+      }
+      header .header-inline .item .date {
+        font-size: 13pt;
+      }
+      header .header-inline .item .category {
+        font-size: 10pt;
+        padding-top: 10px;
+      }
+      header .header-inline .item .title {
+        font-size: 14pt;
+      }
+      header .header-inline .item .more-info {
+        font-size: 11pt;
+        margin-right: 28px;
+      }
+      header .header-inline .border-card {
+        height: 143px;
+        -webkit-box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+        -moz-box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+        box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+      }
+      header .header-inline .border-card .right .date{
+        font-size: 10pt;
+        padding-top: 11px;
+      }
+      header .header-inline .border-card .right .category{
+        margin-top: 2.5%;
+        font-size: 10pt;
+      }
+      header .header-inline .border-card .right .title{
+        font-size: 12pt;
+        padding-top: 20px;
+      }
+      header .header-inline .border-card .right .more-info {
+        font-size: 10pt;
+        padding-top: 10px;
+      }
+      header .header-inline .border-card-2{
+        height: 143px;
+        margin-top: 24px;
+        -webkit-box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+        -moz-box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+        box-shadow: -10px -10px 0px 0px rgba(255, 255, 255, 0.5);
+      }
+      header .header-inline .border-card-2 .right .date{
+        font-size: 10pt;
+        padding-top: 11px;
+      }
+      header .header-inline .border-card-2 .right .category{
+        margin-top: 2.5%;
+        font-size: 10pt;
+        padding-right: 57px;
+        margin-right: -9px
+      }
+      header .header-inline .border-card-2 .right .title{
+        font-size: 12pt;
+        padding-top: 20px;
+      }
+      header .header-inline .border-card-2 .right .more-info {
+        font-size: 10pt;
+        padding-top: 10px;
+      }
+      header .header-inline .border-card-3 a img{
+        width: 100%;
+        height: 152px;
+        
+      }
+      header .header-inline .border-card-3 {
+        margin-top: 24px;
+        
+      }
+      /* section video */
+      .sidenav a, .dropdown-btn {
+       font-size: 10px;
+      }
+      .dropdown-btn .social p{
+        font-size: 12px;
+        padding-left:15px;
+      }
+      .dropdown-btn .social i{
+        font-size: 12px;
+      }
+      .dropdown-btn .sidenav-bottom p{
+        font-size: 12px;
+      }
+      /* section-inline start */
+      /* section carousel */
+      section .section-inline{
+        height: auto;
+        padding-bottom: 30px;
+      }
+      section .section-inline .card-body-slider .item{
+        height: 250px;
+      }
+      section .section-inline .card-body-slider .owl-dot {
+        width: 12px;
+        height: 12px;
+      }
+      section .section-inline .card-body-slider .item .slider-write{
+        position: relative;
+        background: rgba(139, 0, 0, 0.5);
+        line-height: 19px;
+        color: white;
+        padding: 10px 0px 8px 10px;
+        font-size: 10pt;
+        bottom: 84px;
+        z-index: 2;
+      }
+      /* section card başkan */
+      section .section-inline .card-body-card .write{
+        left: 0px;
+      }
+     
+      section .section-inline .card-body-card img.img-president{
+        height: 230px !important;
+        width: 245px !important;
+        padding-left: 0px !important;
+        
+      }
+  
+      section .section-inline .card-body-card .president a h3{
+        text-align: center;
+        padding-left: 25px;
+        top: 0px;
+        font-size: 12px;
+      }
+      section .section-inline .card-body-card .president img.background{
+        position: absolute;
+        bottom: -7px;
+        width: 240px;
+        left: 12px;
+        
+      }
+      section .section-inline .card-body-card img.img-president{
+        padding-left: 0px;
+      }
+        
+/* Section-2 section-2 section-2*/
+    section .slider-2 .container p{
+        font-size: 24pt;
+    }
+    section .slider-2 .container .owl-carousel .item{
+        width: 230px;
+        height: 300px;
+      }
+      section .slider-2 .container .owl-carousel .card-1 img{
+        width: 200px;
+        height: 180px;
+      }
+      section .slider-2 .container .owl-carousel .card-1 p{
+        font-size: 20pt;
+      }
+      section .slider-2 .container .owl-carousel .card-2 h3{
+        font-size:12pt;
+      }
+      section .slider-2 .container .owl-carousel .card-2 h6{
+        font-size: 10px;
+        margin-top: 5px;
+      }
+      section .slider-2 .container .owl-carousel .card-3 img{
+        width: 200px;
+        height: 180px;
+      }
+      section .slider-2 .container .owl-carousel .card-3 p{
+        font-size: 20pt;
+      }
+      section .slider-2 .container .owl-carousel .card-4 h3{
+        font-size:12px;
+      }
+      section .slider-2 .container .owl-carousel .card-4 h6{
+        font-size: 13px;
+        margin-top:25px;
+      }
+      section .slider-2 .container .owl-carousel .card-5 img{
+        width: 200px;
+        height: 180px;
+      }
+      section .slider-2 .container .owl-carousel .card-5 p{
+        font-size: 20pt;
+      }
+      section .slider-2 .container .owl-carousel .card-6 h3{
+        font-size:11px;
+      }
+      section .slider-2 .container .owl-carousel .card-6 h6{
+        font-size: 13px;
+        margin-top:25px;
+      }
+      section .slider-2 .container .owl-carousel .owl-nav{
+        font-size:60px;
+        top: -80px;
+      }
+      section .slider-2 .container .owl-carousel .owl-nav .owl-next{
+        margin-left: 15px;
+        width: 20px;  
+      }
+      
+/* footer */
+footer .footer-card .footer-inline{
+    padding-top:35px;
+    padding-bottom: 20px;
+  }
+/* footer left */
+      footer .footer-card {
+         margin-left: 0;
+       }
+       footer .footer-card .footer-inline .left .logo img{
+         width: 200px;
+         height: 100px;
+       }
+       footer .footer-card .footer-inline .left .follow{
+        font-size: 16pt;
+        padding-left: 25px;
+      }
+      footer .footer-card .footer-inline .left .icons i{
+        padding-left: 4px;
+        padding-right: 5px;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-facebook{
+        font-size: 30px;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-twitter{
+        font-size: 30px;
+      }
+      footer .footer-card .footer-inline .left .icons i.fab.fa-youtube{
+        font-size: 30px;
+      }
+      footer .footer-card .footer-inline .left .copy{
+        font-size: 12pt;
+        padding-left: 14px;
+        margin-top: 20px;
+      }
+/* footer center */
+      footer .footer-card .center .center-inline h2{
+        font-size: 15pt;
+      }
+      footer .footer-card .center .center-inline ul h2{
+        font-size: 15pt;
+      }
+      footer .footer-card .center .center-inline ul li{
+        line-height: 20px;
+        padding-left: 15px;
+        font-size: 12pt;
+      }
+/* footer right */
+        footer .footer-card .right .right-inline h2{
+            font-size: 15pt;
+        }
+        footer .footer-card .right .right-inline ul h2{
+            font-size: 15pt;
+          }
+          footer .footer-card .right .right-inline ul li{
+            line-height: 20px;
+            padding-left: 15px;
+            font-size: 12pt;
+          }
+/* mobile menu */
+header nav .mobile{
+  display: block;
+}
+header nav .mobile a{
+  position: relative;
+  top: 13px;
+  left: 37px;
+}
+header nav .mobile .btn{
+position: relative;
+}
+header nav .mobile .btn .fa-bars,
+header nav .mobile .btn .fa-times{
+  position: relative;
+  right: 5px;
+  color: white;
+  font-size: 35px;
+  z-index: 3;
+}
+header nav .mobile >ul{
+  position: fixed;
+  top: -60px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  background: red;
+  display: none;
+  z-index: 2;
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+header nav .mobile >ul >li{
+position: relative;
+text-transform: uppercase;
+display: block;
+font-size: 45pt;
+width: 100%;
+text-align: center;
+top: 12%;
+margin-bottom: 40px;
+
+color: #ffffff;
+cursor: pointer;
+border: 1px solid rgba(185, 29, 29, 0.2);
+}
+header nav .mobile >ul >li >a{
+  color: white;
+  display: block;
+  padding: 5px;
+}
+header nav .mobile >ul >li ul{
+  position: relative;
+  top: 10px;
+  left: 38px;
+  font-size: 16pt;
+  display: none;
+}
+header nav .mobile >ul >li.active ul{
+  display: block;
+}
+
+header nav .mobile >ul >li ul li{
+  padding: 10px;
+  display: block;
+}
+header nav .mobile >ul >li ul li a{
+  font-size: 20pt;
+  top: 0;
+  color: white;
+  left: 0;
+}
+header nav .mobile >ul >li ul li a:hover{
+  color: rgba(172, 140, 140);
+
+}
+header nav .mobile >ul >li ul li:hover{
+  color: rgb(172, 140, 140);
+  border-bottom: 1px solid rgba(185, 29, 29, 0.5);
+  border-top: 1px solid rgba(185, 29, 29, 0.5);
+}
+
+header nav .mobile >ul >li >a:hover{
+  color: rgb(172, 140, 140);
+}
+
+header nav .mobile >ul.aktif{
+  display: block;
+} 
+header nav .mobile .btn .fa-bars.aktif,
+header nav .mobile .btn .fa-times.aktif{
+  position: fixed;
+  right: 53px;
+  top:63px;
+  font-size: 45px;
+}
+body.aktif{
+  overflow: hidden;
+}
+}
+
+/* for ipad-tablets */
+@media screen and (max-width:767px){
+  /* logo */
+  header nav .nav-container .navbar-brand {
+    height: 90px;
+  }
+  header {
+    background-image: url("../img/new-background.png");
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+  }
+
+ 
+  header nav .navbar-brand img{
+    width: 75px;
+    height: 75px;
+  }
+  header .header-inline {
+    position: relative;
+    padding: 0px 0 40px;
+  }
+  header .header-inline .border-card{
+    display: none;
+  }
+  header .header-inline .border-card-2{
+    display: none;
+  }
+  header .header-inline .item {
+    width: 100%;
+    height: 450px;
+  }
+  header .header-inline .item img {
+    height: 240px;
+  }
+  header .header-inline .item .date {
+    margin-bottom: 10px;
+    font-size: 14pt;
+    border-bottom: 1px solid #818181;
+    padding-bottom: 7px;
+  }
+  header .header-inline .item .category {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16pt;
+    padding: 7px;
+  }
+  header .header-inline .item .title {
+    font-size: 14pt;
+  }
+  header .header-inline .item .more-info {
+    position: relative;
+    top: 0;
+    font-size: 11pt;
+    font-style: italic;
+    margin-right: 20px;
+  }
+  .owl-dot {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #cf0b0b !important;
+    margin-right: 0.5rem;
+    outline: 0 !important;
+  }
+  /*section video*/
+  .dropdown-btn .social{
+    padding-top: 5px;
+  }
+  .dropdown-btn .social img{
+    display: none;
+  }
+  .dropdown-btn .social p{
+    font-size: 10px;
+  }
+  .dropdown-btn .sidenav-bottom p{
+    display: none;
+  }
+  
+  /* section video */
+section.first-section{
+  height: auto;
+  background: #e2eaf3;
+  margin-top: 10px;
+  border-top:1px solid #adb2b9;
+  border-bottom:1px solid #adb2b9;
+}
+section.first-section .container .general{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+section.first-section .container .row .video-on{
+  width: 100%;
+  height: 100%;
+  padding-top: 15px;
+}
+section.first-section .container .row .video-on video{
+  width: 100%;
+  height:100%;
+}
+section.first-section .container .row .twitter-on{
+  padding-top: 22px;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+}
+section.first-section .container .row .twitter-on .twitter-timeline{
+  width: 100%;
+  height: 350px !important;
+}
+/* card-3 */
+header .header-inline .border-card-3 a img{
+  position: relative;
+  top: -22px;
+  width: 100%;
+  height: 160px;
+  padding-bottom: 5px; 
+  padding-top: 20px;
+}
+header .header-inline .border-card-3{
+  width: 98%;
+  height: 145px;
+  background: #ffffff;
+  padding-right: 15px;
+  box-shadow:none;
+  display: flex;
+}
+
+header .header-inline .border-card-3 .left {
+  float: left;
+  width: 250px;
+}
+header .header-inline .border-card-3 .left img{
+  width: 100%;
+  height: 100%;
+}
+header .header-inline .border-card-3 .right {
+  float: left;
+  margin-left: 15px;
+}
+
+header .header-inline .border-card-3 .right .date{
+  font-size: 13pt;
+  color: #616161;
+  padding-top: 11px;
+  border-bottom: 1px solid #818181;
+  display: inline-block;
+}
+header .header-inline .border-card-3 .right .category{
+  float: right;
+  margin-top: 0%;
+  font-size: 10pt;
+  background: #cf0b0b;
+  padding: 7px;
+  padding-right: 62px;
+  color: #ffffff;
+  margin-right: -10px
+}
+header .header-inline .border-card-3 .right .title{
+  padding-top: 10px;
+  color: #212529;
+  font-size: 12pt;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .border-card-3 .right .more-info {
+  float: right;
+  margin-right: 30px;
+  margin-top: 1px;
+}
+header .header-inline .border-card-3 .right .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: 10pt;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .border-card-3 .right .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  top:4px;
+  right: -13px;
+  
+}
+
+/* card-3 end*/
+section .section-inline{
+  height: auto;
+  display: flex !important;
+  flex-direction: column !important;
+}
+section .section-inline .card-body-slider{
+  position: relative;
+}
+section .section-inline .card-body-slider .item .slider-write{
+  line-height: 15px;
+  padding: 8px 0px 8px 5px;
+  font-size: 10pt;
+  bottom: 100px;
+  z-index: 2;
+}
+section .section-inline .card-body-slider .write p{
+  font-size: 20pt;
+}
+/* section card başkan */
+section .section-inline .card-body-card{
+  position: relative;
+  top: 25px;
+  margin-bottom: 50px;
+}
+section .section-inline .card-body-card .president a h3{
+  position: relative;
+  text-align: start;
+  color: white;
+  padding-left: 96px;
+  top: 3px;
+}
+/* Section-2 */
+section .slider-2 p{
+  padding-bottom: 15px;
+}
+section .slider-2 .container .owl-carousel .item{
+  width: 100%;
+  height: 380px;
+  padding: 16px;
+}
+section .slider-2 .container .owl-carousel .card-1 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-1 p{
+  top: 30px;
+}
+section .slider-2 .container .owl-carousel .card-2 h3{
+  font-size:22pt;
+  padding-top: 10px;
+  color: #2a2a2a;
+}
+section .slider-2 .container .owl-carousel .card-2 h6{
+  font-size: 14pt;
+}
+section .slider-2 .container .owl-carousel .card-3 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-3 p{
+ top: 30px;
+}
+section .slider-2 .container .owl-carousel .card-4 h3{
+  font-size:22pt;
+}
+section .slider-2 .container .owl-carousel .card-4 h6{
+  font-size: 14pt;
+}
+section .slider-2 .container .owl-carousel .card-5 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-5 p{
+  top:30px;
+}
+section .slider-2 .container .owl-carousel .card-6 h3{
+  font-size:22pt;
+}
+section .slider-2 .container .owl-carousel .card-6 h6{
+  font-size: 14pt;
+}
+section .slider-2 .container .owl-carousel .owl-nav{
+  position: absolute;
+  display: flex;
+  color: white;
+  top: -60px;
+  right: 1px;
+  font-size:80px;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel .owl-nav .owl-next{
+  margin-left: 40px;
+  width: 20px;  
+}
+
+/* footer */
+/* footer-left */
+footer .footer-card .footer-inline .left{
+  padding-left: 25px;
+  padding-right: 50px;
+  border: none;
+}
+footer .footer-card .footer-inline .left{
+  padding-left: 0;
+  padding-right: 0;
+  width: 50%;
+}
+
+/* footer-center */
+footer .footer-card .center{
+  display: none;
+}
+
+/* footer-right */
+footer .footer-card .right{
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 50%;
+}
+/* mobile menu */
+header nav .mobile{
+  display: block;
+}
+header nav .mobile a{
+  position: relative;
+  top: 13px;
+  left: 12px;
+}
+header nav .mobile .btn{
+position: relative;
+}
+header nav .mobile .btn .fa-bars,
+header nav .mobile .btn .fa-times{
+  position: relative;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  z-index: 3;
+}
+header nav .mobile >ul{
+  position: fixed;
+  top: -60px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  background: red;
+  display: none;
+  z-index: 2;
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+header nav .mobile >ul >li{
+position: relative;
+text-transform: uppercase;
+text-align: center;
+top: 12%;
+padding:10px;
+margin-bottom: 8px;
+font-size: 24pt;
+color: #ffffff;
+cursor: pointer;
+border: 1px solid rgba(185, 29, 29, 0.2);
+}
+header nav .mobile >ul >li.active ul{
+  display: block;
+}
+header nav .mobile >ul >li ul{
+  position: relative;
+  top: 10px;
+  left: 14px;
+  font-size: 12pt;
+  display: none;
+}
+header nav .mobile >ul >li ul li{
+  padding-top: 5px;
+  display: block;
+}
+header nav .mobile >ul >li ul li a{
+  font-size: 12pt;
+ 
+}
+header nav .mobile >ul >li ul li:hover{
+  display: block;
+  color: rgb(172, 140, 140);
+  border-bottom: 1px solid rgba(185, 29, 29, 0.5);
+  border-top: 1px solid rgba(185, 29, 29, 0.5);
+}
+
+header nav .mobile >ul >li >a{
+  color: white;
+  display: block;
+  padding: 5px;
+}
+header nav .mobile >ul >li >a:hover{
+  color: rgb(172, 140, 140);
+}
+
+
+header nav .mobile >ul.aktif{
+  display: block;
+} 
+header nav .mobile .btn .fa-bars.aktif,
+header nav .mobile .btn .fa-times.aktif{
+  position: fixed;
+  right: 38px;
+  top:38px;
+  font-size: 45px;
+}
+body.aktif{
+  overflow: hidden;
+}
+}
+/* For Mobile */
+@media screen and (max-width:480px){
+  /* top-carousel */
+  header .header-inline .container .owl-carousel.top-carousel .owl-nav{
+    font-size: 47px;
+    bottom: -7px;
+  }
+
+  header {
+    background-image: url("../img/new-background.png");
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+  }
+  header nav .navbar-brand img{
+    width: 75px;
+    height: 75px;
+  }
+  header .header-inline {
+    position: relative;
+    padding: 0px 0 40px;
+  }
+  header .header-inline .border-card{
+    display: none;
+  }
+  header .header-inline .border-card-2{
+    display: none;
+  }
+  header .header-inline .item {
+    width: 100%;
+    height: 450px;
+  }
+  header .header-inline .item img {
+    height: 240px;
+  }
+  header .header-inline .item .date {
+    margin-bottom: 10px;
+    font-size: 14pt;
+    border-bottom: 1px solid #818181;
+    padding-bottom: 7px;
+  }
+  header .header-inline .item .category {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16pt;
+    padding: 7px;
+  }
+  header .header-inline .item .title {
+    font-size: 15px;
+    padding-bottom: 6px;
+  }
+  header .header-inline .item .more-info {
+    position: relative;
+    top: -8px;
+    font-size: 10pt;
+    font-style: italic;
+    margin-right: 20px;
+  }
+  header .header-inline .item .more-info a .fa-arrow-right {
+    position: absolute;
+    content: "";
+    background-size: 100%;
+    font-size: 8px;
+    top: 4px;
+    margin-left: 4px;
+  }
+  header .header-inline .border-card-2 .right .more-info a .fa-arrow-right {
+    position: absolute;
+    content: "";
+    background-size: 100%;
+    font-size: 5px;
+    bottom:2px;
+    margin-left: 3px;
+  }
+  
+  .owl-dot {
+    width: 13px;
+    height: 13px;
+    border: 2px solid #cf0b0b !important;
+    margin-right: 0.5rem;
+    outline: 0 !important;
+  }
+  /*section video*/
+
+  .dropdown-btn .social{
+    padding-top: 5px;
+  }
+  .dropdown-btn .social p{
+    display: none;
+  }
+  .dropdown-btn .sidenav-bottom p{
+    display: block;
+  }
+/* card-3 */
+/* card-3 */
+header .header-inline .border-card-3 a img{
+  position: relative;
+  top: -22px;
+  width: 100%;
+  height: 160px;
+  padding-bottom: 5px; 
+  padding-top: 20px;
+}
+header .header-inline .border-card-3{
+  width: 96.5%;
+  height: 145px;
+  background: #ffffff;
+  padding-right: 15px;
+  display: flex;
+}
+
+header .header-inline .border-card-3 .left {
+  float: left;
+  width: 250px;
+}
+header .header-inline .border-card-3 .left img{
+  width: 100%;
+  height: 100%;
+}
+header .header-inline .border-card-3 .right {
+  float: left;
+  margin-left: 15px;
+}
+
+header .header-inline .border-card-3 .right .date{
+  font-size: 8pt;
+  color: #616161;
+  padding-top: 11px;
+  border-bottom: 1px solid #818181;
+  display: inline-block;
+}
+header .header-inline .border-card-3 .right .category{
+  float: right;
+  margin-top: 0%;
+  font-size: 8pt;
+  background: #cf0b0b;
+  padding: 4px;
+  padding-right: 20px;
+  color: #ffffff;
+  margin-right: -15px
+}
+header .header-inline .border-card-3 .right .title{
+  padding-top: 10px;
+  color: #212529;
+  font-size: 9pt;
+  line-height: 110%;
+  font-weight: 600;
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
+header .header-inline .border-card-3 .right .more-info {
+  float: right;
+  margin-right: 30px;
+  margin-top: 1px;
+}
+header .header-inline .border-card-3 .right .more-info a {
+  font-style: normal;
+  font-weight: 600;
+  font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+  font-size: 8pt;
+  color: #484848;
+  position: relative;
+}
+header .header-inline .border-card-3 .right .more-info a .fa-arrow-right {
+  position: absolute;
+  content: "";
+  background-size: 100%;
+  font-size: 9px;
+  top:1px;
+  right: -13px;
+  
+}
+
+/* section card başkan */
+section .section-inline .card-body-card{
+  position: relative;
+  top: 30px;
+}
+/* Section-2 */
+section .slider-2 p{
+  padding-bottom: 15px;
+}
+section .slider-2 .container .owl-carousel .item{
+  width: 100%;
+  height: 380px;
+  padding: 16px;
+}
+section .slider-2 .container .owl-carousel .card-1 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-1 p{
+  top: 30px;
+}
+section .slider-2 .container .owl-carousel .card-2 h3{
+  font-size:14pt;
+  font-weight: bold;
+  padding-top: 10px;
+  color: #2a2a2a;
+}
+section .slider-2 .container .owl-carousel .card-2 h6{
+  font-size: 14pt;
+  padding-top: 20px;
+}
+section .slider-2 .container .owl-carousel .card-3 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-3 p{
+ top: 30px;
+}
+section .slider-2 .container .owl-carousel .card-4 h3{
+  font-size:14pt;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel .card-4 h6{
+  font-size: 14pt;
+}
+section .slider-2 .container .owl-carousel .card-5 img{
+  width: 100%;
+  height: 214px;
+}
+section .slider-2 .container .owl-carousel .card-5 p{
+  top:30px;
+}
+section .slider-2 .container .owl-carousel .card-6 h3{
+  font-size:14pt;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel .card-6 h6{
+  font-size: 14pt;
+}
+section .slider-2 .container .owl-carousel .owl-nav{
+  position: absolute;
+  display: flex;
+  color: white;
+  top: -60px;
+  right: 1px;
+  font-size:80px;
+  font-weight: bold;
+}
+section .slider-2 .container .owl-carousel .owl-nav .owl-next{
+  margin-left: 40px;
+  width: 20px;  
+}
+
+/* footer */
+/* footer-left */
+footer .footer-card .footer-inline .left{
+  padding-left: 25px;
+  padding-right: 50px;
+  border: none;
+}
+footer .footer-card .footer-inline .left{
+  padding-left: 0;
+  padding-right: 0;
+  width: 50%;
+}
+
+/* footer-center */
+footer .footer-card .center{
+  display: none;
+}
+
+/* footer-right */
+footer .footer-card .right{
+  padding-top: 25px;
+  padding-left: 25px;
+  width: 50%;
+}
+/* mobile menu */
+header nav .mobile{
+  display: block;
+}
+header nav .mobile a{
+  position: relative;
+  top: 13px;
+  left: 12px;
+}
+header nav .mobile .btn{
+position: relative;
+}
+header nav .mobile .btn .fa-bars,
+header nav .mobile .btn .fa-times{
+  position: relative;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  z-index: 3;
+}
+header nav .mobile >ul{
+  position: fixed;
+  top: -60px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  background: red;
+  display: none;
+  z-index: 2;
+  background-image: url("../img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+header nav .mobile >ul >li{
+position: relative;
+text-transform: uppercase;
+text-align: center;
+top: 12%;
+padding:10px;
+margin-bottom: 8px;
+font-size: 24pt;
+color: #ffffff;
+cursor: pointer;
+border: 1px solid rgba(185, 29, 29, 0.2);
+}
+header nav .mobile >ul >li ul{
+  position: relative;
+  top: 10px;
+  left: 14px;
+  font-size: 12pt;
+  display: none;
+}
+
+}
+@media screen and (max-width:361px){
+  header .header-inline .item .title {
+  font-size: 9px;
+  padding-bottom: 6px;
+}}
+
+@media screen and (max-width:320px){
+/* top-carousel */
+header .header-inline .container .owl-carousel.top-carousel .owl-nav{
+  font-size: 47px;
+  bottom: -7.5px;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav button.owl-prev{
+  margin-left: 30px;
+}
+header .header-inline .container .owl-carousel.top-carousel .owl-nav .owl-next{
+  margin-right:40px ;
+
+}
+  header .header-inline .item .date {
+    font-size: 12pt;
+  }
+  header .header-inline .item .category {
+    font-size: 12pt;
+  }
+  header .header-inline .item .title {
+    font-size: 11pt;
+  }
+  header .header-inline .item .more-info {
+    top: 0px;
+    font-size: 10pt;
+  }
+
+  section .section-inline .card-body-slider .item .slider-write{
+    position: relative;
+    background: rgba(139, 0, 0, 0.5);
+    line-height: 15px;
+    color: white;
+    padding: 10px 0px 8px 15px;
+    font-size: 12px;
+    bottom: 88px;
+    z-index: 2;
+  }
+/* footer */
+/* footer-left */
+/* footer */
+footer .footer-card .footer-inline{
+  padding-top:25px;
+  padding-bottom: 20px;
+}
+/* footer left */
+    footer .footer-card {
+       margin-left: 0;
+     }
+     footer .footer-card .footer-inline .left .logo{
+       width: 150px;
+       height: 75px;
+     }
+     footer .footer-card .footer-inline .left .logo img{
+       width: 150px;
+       height: 75px;
+     }
+     footer .footer-card .footer-inline .left .follow{
+      font-size: 14pt;
+      padding-left: 20px;
+    }
+    footer .footer-card .footer-inline .left .icons i{
+      padding-left: 2px;
+    }
+    footer .footer-card .footer-inline .left .icons i.fab.fa-facebook{
+      font-size: 25px;
+    }
+    footer .footer-card .footer-inline .left .icons i.fab.fa-twitter{
+      font-size: 25px;
+    }
+    footer .footer-card .footer-inline .left .icons i.fab.fa-youtube{
+      font-size: 25px;
+    }
+    footer .footer-card .footer-inline .left .copy{
+      font-size: 10pt;
+      padding-left: 14px;
+      margin-top: 10px;
+    }
+
+/* footer right */
+      footer .footer-card .right{
+        padding-top: 2px;
+        padding-left: 4px;
+      }
+      footer .footer-card .right .right-inline h2{
+          font-size: 15pt;
+      }
+      footer .footer-card .right .right-inline ul h2{
+          font-size: 15pt;
+        }
+        footer .footer-card .right .right-inline ul li{
+          line-height: 18px;
+          padding-left: 0;
+          font-size: 10pt;
+        }
+
+}

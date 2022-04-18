@@ -1,0 +1,134 @@
+section .map {
+    width: 100%;
+}
+section .map iframe{
+    position: relative;
+    top: 10px;
+}
+section .middle{
+    background-image: url("../img/iletisim_border.png");
+    background-repeat: no-repeat;
+    margin:80px 20px 80px 20px;
+    width: 100%;
+    height: 210px;
+}
+section .middle .telephone{
+    padding: 45px 65px;
+}
+section .middle .telephone h3{
+    font-size: 18pt;
+    font-weight: 600;
+    color: #222222;
+    letter-spacing: -1px;
+}
+section .middle .telephone .all{
+    display: flex;
+    margin-top: 40px;
+}
+section .middle .telephone .all .icon{
+    width: 50px;
+    height: 45px;
+}
+section .middle .telephone .all .icon img{
+    width: 100%;
+    height: 100%;
+}
+section .middle .telephone .all .contact{
+    margin-left: 25px;
+}
+section .middle .telephone .all .contact p{
+    padding: 4px 0px;
+    font-size: 12pt;
+    color: #757575;
+}
+section .middle .telephone .all .icon-map{
+    width: 65px;
+    height: 45px;
+}
+section .middle .telephone .all .icon-map img{
+    width: 100%;
+    height: 100%;
+}
+section .middle .telephone .all .contact-map{
+    margin-left: 25px;
+}
+section .middle .telephone .all .contact-map p{
+    padding: 9px 0px;
+    font-size: 12pt;
+    color: #757575;
+}
+@media screen and (max-width:1100px){
+    section .middle{
+        background-image: url("../img/iletisim_border.png");
+        background-repeat: no-repeat;
+        margin:80px -5px;
+        width: 100%;
+        height: 210px;
+    }
+    section .middle .telephone{
+        padding: 45px 30px;
+    }
+}
+@media screen and (max-width:992px){
+    section .middle{
+        background-image: none;
+        background-repeat: no-repeat;
+        margin:80px -5px;
+        width: 100%;
+        height: 210px;
+    }
+    section .middle .telephone{
+        padding: 45px 30px;
+    }
+    
+section .middle .telephone h3{
+    font-size: 16pt;
+}
+section .middle .telephone .all .icon{
+    width: 40px;
+    height: 35px;
+}
+section .middle .telephone .all .icon img{
+    width: 100%;
+    height: 100%;
+}
+section .middle .telephone .all .contact{
+    margin-left: 25px;
+}
+section .middle .telephone .all .contact p{
+    padding: 4px 0px;
+    font-size: 10pt;
+    color: #757575;
+}
+section .middle .telephone .all .icon-map{
+    width: 55px;
+    height: 35px;
+}
+section .middle .telephone .all .icon-map img{
+    width: 100%;
+    height: 100%;
+}
+section .middle .telephone .all .contact-map{
+    margin-left: 25px;
+}
+section .middle .telephone .all .contact-map p{
+    padding: 9px 0px;
+    font-size: 10pt;
+    color: #757575;
+}
+}
+@media screen and (max-width:767px){
+    section .middle{
+        margin:25px 20px 15px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    section .middle .telephone{
+        padding: 30px 65px;
+    }
+    
+}
